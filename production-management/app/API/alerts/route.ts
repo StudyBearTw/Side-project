@@ -2,9 +2,9 @@ import { NextResponse } from "next/server";
 import mysql from "mysql2/promise";
 
 const db = mysql.createPool({
-  host: "localhost",
+  host: "Local instance 3306",
   user: "root",
-  password: "你的密碼",
+  password: "AdamHsueh11",
   database: "production_management",
 });
 
